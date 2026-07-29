@@ -1,6 +1,7 @@
 baseURL: "https://awesome-actions-template.github.io/hugo-papermod-template"
 title: PaperMod
-paginate: 5
+pagination:
+  paginate: 5
 theme: hugo-PaperMod
 
 enableInlineShortcodes: true
