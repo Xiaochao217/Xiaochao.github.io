@@ -1,0 +1,31 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+<p>共计 {{ len $posts }} 篇日志</p>
+
+<div class="archive-tags">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <a href="{{ "tags/" | relLangURL }}{{ $name | urlize }}/">
+      #{{ $name }} ({{ .Count }})
+    </a>
+  {{ end }}
+</div>
+
+{{ range $posts.GroupByDate "2006-01" }}
+  <section class="archive-month">
+    <h2>{{ .Key }}</h2>
+    <ul>
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <time>{{ .Date.Format "2006-01-02" }}</time>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}
+{{ end }}
