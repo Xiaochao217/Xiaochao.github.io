@@ -1,5 +1,5 @@
-baseURL: "https://awesome-actions-template.github.io/hugo-papermod-template"
-title: PaperMod
+baseURL: "https://xiaochao217.github.io/"
+title: "小超的博客"
 pagination:
   paginate: 5
 theme: hugo-PaperMod
