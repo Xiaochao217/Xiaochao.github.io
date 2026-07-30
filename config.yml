@@ -38,7 +38,7 @@ languages:
           url: search/
           weight: 5
         - name: 随文
-          url: about/
+          url: contextual/
           weight: 6
         - name: │
           url: about/
