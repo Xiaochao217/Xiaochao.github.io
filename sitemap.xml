@@ -2,21 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaochao217.github.io/tags/</loc>
-    <lastmod>2026-07-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiaochao217.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-07-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiaochao217.github.io/posts/</loc>
-    <lastmod>2026-07-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiaochao217.github.io/posts/my-first-post/</loc>
-    <lastmod>2026-07-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiaochao217.github.io/</loc>
-    <lastmod>2026-07-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xiaochao217.github.io/contextual/</loc>
   </url><url>
     <loc>https://xiaochao217.github.io/posts/test/</loc>
@@ -29,10 +14,16 @@
   </url><url>
     <loc>https://xiaochao217.github.io/series/</loc>
   </url><url>
+    <loc>https://xiaochao217.github.io/tags/</loc>
+  </url><url>
     <loc>https://xiaochao217.github.io/posts/blog/</loc>
   </url><url>
     <loc>https://xiaochao217.github.io/posts/reading/</loc>
   </url><url>
     <loc>https://xiaochao217.github.io/about/</loc>
+  </url><url>
+    <loc>https://xiaochao217.github.io/posts/</loc>
+  </url><url>
+    <loc>https://xiaochao217.github.io/</loc>
   </url>
 </urlset>
