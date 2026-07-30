@@ -1,18 +1,36 @@
-{{ $total := 0 }}
-{{ range .Site.RegularPages }}
-  {{ $total = add $total .WordCount }}
+{{ $scratch := newScratch }}
+{{ range (where .Site.RegularPages "Type" "posts") }}
+  {{ $scratch.Add "total" .WordCount }}
 {{ end }}
 
-<footer class="footer custom-footer">
-  <p>共 {{ $total }} 字</p>
-  <p>写完一本《书名》· 作者名 的<br>《读后感》了！</p>
+{{ $totalWord := $scratch.Get "total" }}
+{{ $wowWord := div $totalWord 10000 }}
 
-  <a class="footer-brand" href="{{ "/" | relURL }}">● 小超的博客</a>
+<footer class="footer custom-footer">
+  <p>
+    共 {{ $totalWord }} 字<br>
+    <span id="wowBook"></span>
+  </p>
 
   <p>
     © {{ now.Year }}
     <a href="{{ "" | absLangURL }}">{{ site.Title }}</a>
-    · Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
-    · Theme by <a href="https://github.com/adityatelange/hugo-PaperMod" target="_blank" rel="noopener">PaperMod</a>
+    · Powered by
+    <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
   </p>
 </footer>
+
+<script>
+  const wowJSWord = {{ $wowWord }};
+
+  const gradeChart = [
+    { min: 30, text: "写完一本 雨果 的<br>《巴黎圣母院》了！" },
+    { min: 20, text: "写完一本 东野圭吾 的<br>《白夜行》了！" },
+    { min: 10, text: "写完一本 余华 的<br>《活着》了！" },
+    { min: 5, text: "写完一本 埃克苏佩里 的<br>《小王子》了！" },
+    { min: 0, text: "还在努力更新中…<br>加油！" }
+  ];
+
+  const result = gradeChart.find(item => wowJSWord >= item.min);
+  document.getElementById("wowBook").innerHTML = result.text;
+</script>
