@@ -31,14 +31,14 @@ languages:
         - name: 博客
           url: blog/
           weight: 3
-        - name: 关于
-          url: about/
-          weight: 4
         - name: 🔍
           url: search/
-          weight: 5
+          weight: 4
         - name: 随文
           url: contextual/
+          weight: 5
+        - name: 关于
+          url: about/
           weight: 6
       
           
