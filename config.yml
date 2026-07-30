@@ -3,6 +3,8 @@ title: "小超的博客"
 pagination:
   paginate: 5
 theme: hugo-PaperMod
+languageCode: "zh-CN"
+defaultContentLanguage: "zh"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
