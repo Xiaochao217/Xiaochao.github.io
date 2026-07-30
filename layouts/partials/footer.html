@@ -3,7 +3,7 @@
   {{ $scratch.Add "total" .WordCount }}
 {{ end }}
 
-{{ $totalWord := $scratch.Get "total" }}
+{{ $totalWord := default 0 ($scratch.Get "total") }}
 {{ $wowWord := div $totalWord 10000 }}
 
 <footer class="footer custom-footer">
