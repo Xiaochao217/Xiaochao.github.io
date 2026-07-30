@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>随机文章</title>
+</head>
+<body>
+  <script>
+    fetch('/index.json')
+      .then(response => response.json())
+      .then(pages => {
+        const articles = pages.filter(page =>
+          page.permalink && page.permalink.includes('/posts/')
+        );
+
+        const article = articles[Math.floor(Math.random() * articles.length)];
+
+        if (article) {
+          window.location.replace(article.permalink);
+        }
+      });
+  </script>
+</body>
+</html>
