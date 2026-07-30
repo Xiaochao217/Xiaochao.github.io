@@ -19,7 +19,7 @@ minify:
   # minifyOutput: true
 
 languages:
-  en:
+  zh:
     languageName: "zh-CH"
     weight: 1
     menu:
