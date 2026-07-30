@@ -24,14 +24,14 @@ languages:
     weight: 1
     menu:
       main:
-        - name: 首页
-          url: /
+        - name: 读书
+          url: posts/reading/
           weight: 1
         - name: 归档
           url: archives/
           weight: 2
         - name: 博客
-          url: blog/
+          url: posts/blog/
           weight: 3
         - name: 🔍
           url: search/
