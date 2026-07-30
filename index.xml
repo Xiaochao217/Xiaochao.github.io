@@ -22,12 +22,5 @@
 &lt;h2 id=&#34;开始写作&#34;&gt;开始写作&lt;/h2&gt;
 &lt;p&gt;hello 我是小超 欢迎来到我的博客&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Hello World</title>
-      <link>https://xiaochao217.github.io/posts/hello-world/</link>
-      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://xiaochao217.github.io/posts/hello-world/</guid>
-      <description>Guide to Hugo-PaperMod-Template</description>
-    </item>
   </channel>
 </rss>
