@@ -1,16 +1,6 @@
 ---
 title: "随机文章"
-layout: "single"
+layout: "random"
+url: "/contextual/"
 ---
-
-<script>
-fetch('/index.json')
-  .then(response => response.json())
-  .then(posts => {
-    const articles = posts.filter(post => post.permalink);
-    const randomPost = articles[Math.floor(Math.random() * articles.length)];
-    window.location.href = randomPost.permalink;
-  });
-</script>
-
 
