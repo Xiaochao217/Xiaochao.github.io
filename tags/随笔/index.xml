@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>小超的博客</title>
-    <link>https://xiaochao217.github.io/</link>
-    <description>Recent content on 小超的博客</description>
+    <title>随笔 on 小超的博客</title>
+    <link>https://xiaochao217.github.io/tags/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on 小超的博客</description>
     <image>
       <title>小超的博客</title>
       <url>https://xiaochao217.github.io/papermod-cover.png</url>
@@ -12,7 +12,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://xiaochao217.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xiaochao217.github.io/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇文章</title>
       <link>https://xiaochao217.github.io/posts/my-first-post/</link>
@@ -21,13 +21,6 @@
       <description>&lt;p&gt;欢迎来到我的个人博客。&lt;/p&gt;
 &lt;h2 id=&#34;开始写作&#34;&gt;开始写作&lt;/h2&gt;
 &lt;p&gt;hello 我是小超 欢迎来到我的博客&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World</title>
-      <link>https://xiaochao217.github.io/posts/hello-world/</link>
-      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://xiaochao217.github.io/posts/hello-world/</guid>
-      <description>Guide to Hugo-PaperMod-Template</description>
     </item>
   </channel>
 </rss>
