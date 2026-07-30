@@ -1,0 +1,29 @@
+.custom-footer {
+  margin-top: 110px;
+  padding: 72px 16px 42px;
+  text-align: center;
+  color: #9a9a9a;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.custom-footer p {
+  margin: 0 0 12px;
+}
+
+.custom-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-brand {
+  display: inline-block;
+  margin: 22px 0;
+  color: #222 !important;
+  font-weight: 700;
+  font-size: 20px;
+}
