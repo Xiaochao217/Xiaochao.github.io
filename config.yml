@@ -40,9 +40,7 @@ languages:
         - name: 随文
           url: contextual/
           weight: 6
-        - name: │
-          url: about/
-          weight: 7
+      
           
 
 outputs:
