@@ -64,15 +64,7 @@
       <link>https://xiaochao217.github.io/contextual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xiaochao217.github.io/contextual/</guid>
-      <description>&lt;script&gt;
-fetch(&#39;/index.json&#39;)
-  .then(response =&gt; response.json())
-  .then(posts =&gt; {
-    const articles = posts.filter(post =&gt; post.permalink);
-    const randomPost = articles[Math.floor(Math.random() * articles.length)];
-    window.location.href = randomPost.permalink;
-  });
-&lt;/script&gt;</description>
+      <description></description>
     </item>
   </channel>
 </rss>
