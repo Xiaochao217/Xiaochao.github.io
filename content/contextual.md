@@ -13,4 +13,4 @@ fetch('/index.json')
   });
 </script>
 
-正在随机挑选一篇文章……
+
