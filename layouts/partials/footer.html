@@ -34,3 +34,12 @@
   const result = gradeChart.find(item => wowJSWord >= item.min);
   document.getElementById("wowBook").innerHTML = result.text;
 </script>
+<script>
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const root = document.documentElement;
+    const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
+
+    root.dataset.theme = nextTheme;
+    localStorage.setItem("pref-theme", nextTheme);
+  });
+</script>
