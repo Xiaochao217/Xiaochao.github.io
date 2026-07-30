@@ -24,7 +24,7 @@ title: "关于我"
 
 - Email： [📩3146371316@qq.com](3146371316@qq.com)
 
-- CSDN:   [学海无涯yc]([学海无涯yc-CSDN博客](https://blog.csdn.net/weixin_58024114?spm=1000.2115.3001.5343))
+- CSDN:   [学海无涯yc](https://blog.csdn.net/weixin_58024114?spm=1000.2115.3001.5343)
 
   
 
