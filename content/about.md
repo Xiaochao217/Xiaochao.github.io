@@ -22,7 +22,7 @@ title: "关于我"
 
 - 公众号：yc学海无涯
 
-- Email： [📩3146371316@qq.com](3146371316@qq.com)
+- Email： 📩3146371316@qq.com
 
 - CSDN:   [学海无涯yc](https://blog.csdn.net/weixin_58024114?spm=1000.2115.3001.5343)
 
