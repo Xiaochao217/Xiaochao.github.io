@@ -27,3 +27,22 @@
   font-weight: 700;
   font-size: 20px;
 }
+.breadcrumbs {
+  margin: 0 0 26px;
+  padding: 14px 18px;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  background-image: radial-gradient(
+    rgb(120 120 120 / 12%) 0.7px,
+    transparent 0.7px
+  );
+  background-size: 5px 5px;
+}
+
+html[data-theme="dark"] .breadcrumbs {
+  background-color: #282828;
+  background-image: radial-gradient(
+    rgb(255 255 255 / 10%) 0.7px,
+    transparent 0.7px
+  );
+}
