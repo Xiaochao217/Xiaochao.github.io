@@ -22,5 +22,12 @@
 &lt;h2 id=&#34;开始写作&#34;&gt;开始写作&lt;/h2&gt;
 &lt;p&gt;hello 我是小超 欢迎来到我的博客&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>https://xiaochao217.github.io/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xiaochao217.github.io/posts/test/</guid>
+      <description>&lt;p&gt;这是第一篇笔记&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
